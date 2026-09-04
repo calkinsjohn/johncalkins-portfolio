@@ -1,0 +1,17 @@
+---
+import WebflowLayout from "../layouts/WebflowLayout.astro";
+import { webflowPages } from "../data/webflow-pages";
+
+export function getStaticPaths() {
+  return Object.values(webflowPages)
+    .filter((page) => page.slug !== "index")
+    .map((page) => ({
+      params: { slug: page.slug },
+      props: { page },
+    }));
+}
+
+const { page } = Astro.props;
+---
+
+<WebflowLayout page={page} />
