@@ -7582,18 +7582,9 @@ body {
 .link-block-24:focus-visible,
 .link-block-29:focus-visible,
 .link-block-31:focus-visible,
-.navlink:focus-visible,
-.case-progress-rail__link:focus-visible {
+.navlink:focus-visible {
   outline: 2px solid #80ffca;
   outline-offset: 4px;
-}
-
-.case-rail-target {
-  scroll-margin-top: 112px;
-}
-
-.case-progress-rail {
-  display: none;
 }
 
 .portfolio-lightbox-trigger {
@@ -7730,70 +7721,6 @@ body {
   }
 }
 
-@media screen and (min-width: 1280px) {
-  .case-progress-rail {
-    z-index: 3;
-    grid-column-gap: 0;
-    grid-row-gap: 10px;
-    flex-direction: column;
-    align-items: flex-start;
-    width: 92px;
-    display: flex;
-    position: fixed;
-    top: 50%;
-    right: clamp(20px, 3vw, 48px);
-    transform: translateY(-50%);
-  }
-
-  .case-progress-rail__link {
-    color: var(--_colors---light-gray);
-    letter-spacing: .2px;
-    align-items: center;
-    min-height: 20px;
-    padding-left: 14px;
-    font-family: Nouvelle Grotesk, Arial, sans-serif;
-    font-size: 12px;
-    line-height: 1em;
-    text-decoration: none;
-    transition:
-      color 180ms ease,
-      opacity 180ms ease;
-    display: flex;
-    position: relative;
-    opacity: .62;
-  }
-
-  .case-progress-rail__link:before {
-    content: "";
-    background-color: currentColor;
-    border-radius: 999px;
-    width: 4px;
-    height: 4px;
-    position: absolute;
-    left: 0;
-    transition:
-      background-color 180ms ease,
-      box-shadow 180ms ease,
-      transform 180ms ease;
-  }
-
-  .case-progress-rail__link:hover,
-  .case-progress-rail__link.is-active {
-    color: var(--_colors---bright-green);
-    opacity: 1;
-  }
-
-  .case-progress-rail__link:hover:before,
-  .case-progress-rail__link.is-active:before {
-    box-shadow: 0 0 0 4px #80ffca1f;
-    transform: scale(1.35);
-  }
-
-  .case-progress-rail__home {
-    margin-top: 4px;
-  }
-}
-
 @media (prefers-reduced-motion: reduce) {
   .section-case-studies .card,
   .section-case-studies .card .div-block-148,
@@ -7833,8 +7760,6 @@ body {
   .navlink.white .text-block-49,
   .link-block-31 .text-block-50,
   .navlink .div-block-143 > div,
-  .case-progress-rail__link,
-  .case-progress-rail__link:before,
   .portfolio-lightbox__close,
   .portfolio-lightbox__nav {
     transition: none;
