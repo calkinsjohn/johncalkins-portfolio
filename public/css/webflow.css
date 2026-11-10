@@ -49,7 +49,7 @@ body {
   margin: 0;
   min-height: 100%;
   background-color: #fff;
-  font-family: Arial, sans-serif;
+  font-family: Inter, sans-serif;
   font-size: 14px;
   line-height: 20px;
   color: #333;
@@ -794,7 +794,7 @@ textarea.w-select {
   line-height: 12px;
   text-align: center;
   color: #999;
-  font-family: serif;
+  font-family: Inter, sans-serif;
 }
 .w-widget-twitter-count-shim .w-widget-twitter-count-clear {
   position: relative;
@@ -1154,7 +1154,7 @@ textarea.w-select {
   bottom: 0;
   left: 0;
   color: #fff;
-  font-family: "Helvetica Neue", Helvetica, Ubuntu, "Segoe UI", Verdana, sans-serif;
+  font-family: Inter, sans-serif;
   font-size: 17px;
   line-height: 1.2;
   font-weight: 300;

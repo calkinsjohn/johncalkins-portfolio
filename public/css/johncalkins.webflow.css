@@ -1,83 +1,3 @@
-@font-face {
-  font-family: Gordita;
-  src: url('../fonts/Gordita-Medium.otf') format("opentype");
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: Gordita;
-  src: url('../fonts/Gordita-Thin-Italic.otf') format("opentype");
-  font-weight: 100;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: Gordita;
-  src: url('../fonts/Gordita-Regular.otf') format("opentype");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: Gordita;
-  src: url('../fonts/Gordita-Thin.otf') format("opentype");
-  font-weight: 100;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: Gordita ultra;
-  src: url('../fonts/Gordita-Ultra.otf') format("opentype");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: Nouvelle Grotesk;
-  src: url('../fonts/NNNouvelleGroteskSTD-Normal.otf') format("opentype"), url('../fonts/NNNouvelleGroteskSTD-Fat.otf') format("opentype");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: Nouvelle Grotesk;
-  src: url('../fonts/NNNouvelleGroteskSTD-Light.otf') format("opentype");
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: Nouvelle Grotesk;
-  src: url('../fonts/NNNouvelleGroteskSTD-Bold.otf') format("opentype");
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: Nouvelle Grotesk;
-  src: url('../fonts/NNNouvelleGroteskSTD-Medium.otf') format("opentype");
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: Nouvelle Grotesk;
-  src: url('../fonts/NNNouvelleGroteskSTD-Thin.otf') format("opentype");
-  font-weight: 100;
-  font-style: normal;
-  font-display: swap;
-}
-
 :root {
   --_colors---almost-black: #101010;
   --white: white;
@@ -106,7 +26,7 @@
 
 body {
   color: #333;
-  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+  font-family: Inter, sans-serif;
   font-size: 14px;
   line-height: 20px;
 }
@@ -126,16 +46,16 @@ body {
 }
 
 .nav-link {
-  font-family: Gordita, sans-serif;
+  font-family: Inter, sans-serif;
 }
 
 .nav-link-2 {
-  font-family: Suez One;
+  font-family: Inter, sans-serif;
 }
 
 .nav-link-3 {
   padding-right: 0;
-  font-family: Gordita ultra, sans-serif;
+  font-family: Inter, sans-serif;
 }
 
 .image {
@@ -169,7 +89,7 @@ body {
 
 .link-block {
   color: #333;
-  font-family: Gordita ultra, sans-serif;
+  font-family: Inter, sans-serif;
   text-decoration: none;
 }
 
@@ -177,7 +97,7 @@ body {
   color: var(--white);
   letter-spacing: 1px;
   margin-right: 20px;
-  font-family: Gordita, sans-serif;
+  font-family: Inter, sans-serif;
   font-weight: 700;
   line-height: 1;
 }
@@ -194,7 +114,7 @@ body {
   color: var(--white);
   letter-spacing: .5px;
   margin-bottom: 50px;
-  font-family: Gordita, sans-serif;
+  font-family: Inter, sans-serif;
   font-size: 18px;
   line-height: 1;
 }
@@ -212,7 +132,7 @@ body {
   text-align: center;
   letter-spacing: .5px;
   margin-bottom: 50px;
-  font-family: Gordita, sans-serif;
+  font-family: Inter, sans-serif;
   font-size: 54px;
   font-weight: 500;
   line-height: 1.1;
@@ -238,7 +158,7 @@ body {
   text-align: center;
   letter-spacing: .5px;
   margin-bottom: 50px;
-  font-family: Gordita, sans-serif;
+  font-family: Inter, sans-serif;
   font-size: 18px;
   line-height: 1.2;
 }
@@ -254,7 +174,7 @@ body {
   white-space: normal;
   border-radius: 100px;
   padding: 18px 25px 15px;
-  font-family: Gordita, sans-serif;
+  font-family: Inter, sans-serif;
   font-weight: 500;
   line-height: 1;
 }
@@ -340,7 +260,7 @@ body {
   color: #333;
   text-align: center;
   margin-bottom: 5px;
-  font-family: Gordita, sans-serif;
+  font-family: Inter, sans-serif;
   font-size: 24px;
   font-weight: 500;
   line-height: 1;
@@ -349,14 +269,14 @@ body {
 .text-block-6 {
   color: #333333ab;
   text-align: center;
-  font-family: Gordita, sans-serif;
+  font-family: Inter, sans-serif;
 }
 
 .field-label {
   color: #333;
   letter-spacing: .5px;
   margin-bottom: 10px;
-  font-family: DM Sans, sans-serif;
+  font-family: Inter, sans-serif;
   font-size: 14px;
   font-weight: 500;
   line-height: 1;
@@ -371,7 +291,7 @@ body {
   height: 50px;
   margin-bottom: 50px;
   padding-left: 20px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: Inter, sans-serif;
 }
 
 .submit-button {
@@ -386,7 +306,7 @@ body {
   margin-right: auto;
   padding-top: 16px;
   padding-bottom: 13px;
-  font-family: Gordita, sans-serif;
+  font-family: Inter, sans-serif;
   font-weight: 500;
 }
 
@@ -412,7 +332,7 @@ body {
 
 .text-block-7 {
   color: var(--blue);
-  font-family: Gordita, sans-serif;
+  font-family: Inter, sans-serif;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.1;
@@ -425,7 +345,7 @@ body {
   align-items: center;
   padding-top: 18px;
   padding-bottom: 18px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: Inter, sans-serif;
   font-weight: 400;
   display: none;
 }
@@ -473,7 +393,7 @@ body {
   text-align: center;
   letter-spacing: .25px;
   margin-bottom: 18px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: Inter, sans-serif;
   font-size: 54px;
   font-weight: 700;
   line-height: 1;
@@ -483,7 +403,7 @@ body {
   color: var(--dark-slate-grey);
   text-align: center;
   letter-spacing: .25px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: Inter, sans-serif;
   font-size: 18px;
   font-weight: 500;
   line-height: 1.3;
@@ -504,7 +424,7 @@ body {
   text-align: center;
   letter-spacing: .25px;
   margin-bottom: 18px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: Inter, sans-serif;
   font-size: 42px;
   font-weight: 700;
   line-height: 1;
@@ -518,7 +438,7 @@ body {
   text-align: center;
   letter-spacing: .25px;
   margin-bottom: 60px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: Inter, sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.2;
@@ -593,7 +513,7 @@ body {
   text-align: center;
   letter-spacing: .5px;
   margin-bottom: 20px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: Inter, sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.1;
@@ -668,14 +588,14 @@ body {
   height: auto;
   padding-top: 18px;
   padding-bottom: 48px;
-  font-family: Gordita, sans-serif;
+  font-family: Inter, sans-serif;
   display: none;
   position: relative;
 }
 
 .text-block-10 {
   color: var(--white);
-  font-family: Gordita, sans-serif;
+  font-family: Inter, sans-serif;
   font-size: 14px;
   line-height: 1;
 }
@@ -753,7 +673,7 @@ body {
   color: var(--dark-slate-grey);
   letter-spacing: .25px;
   margin-bottom: 18px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: Inter, sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 1;
@@ -915,7 +835,7 @@ body {
 
 .text-block-12 {
   color: var(--dark-slate-grey);
-  font-family: Gordita, sans-serif;
+  font-family: Inter, sans-serif;
   font-size: 13px;
   line-height: 1;
 }
@@ -990,7 +910,7 @@ body {
   opacity: 1;
   color: #fff;
   letter-spacing: .5px;
-  font-family: Gordita, sans-serif;
+  font-family: Inter, sans-serif;
   font-size: 16px;
   line-height: 1;
 }
@@ -1044,7 +964,7 @@ body {
   flex-direction: column;
   align-items: center;
   margin-left: 0;
-  font-family: Gordita, sans-serif;
+  font-family: Inter, sans-serif;
   text-decoration: none;
   display: flex;
   position: static;
@@ -1429,7 +1349,7 @@ body {
 
 .text-block-14 {
   margin-bottom: 20px;
-  font-family: Gordita, sans-serif;
+  font-family: Inter, sans-serif;
   font-size: 32px;
   line-height: 1;
 }
@@ -1459,7 +1379,7 @@ body {
 
 .text-block-15 {
   margin-bottom: 10px;
-  font-family: Gordita, sans-serif;
+  font-family: Inter, sans-serif;
   font-size: 20px;
   font-weight: 700;
   line-height: 1;
@@ -1469,7 +1389,7 @@ body {
   color: var(--white);
   text-align: right;
   letter-spacing: 1px;
-  font-family: Gordita, sans-serif;
+  font-family: Inter, sans-serif;
   font-size: 18px;
   line-height: 1;
   display: none;
@@ -1477,13 +1397,13 @@ body {
 
 .paragraph {
   margin-bottom: 0;
-  font-family: Gordita, sans-serif;
+  font-family: Inter, sans-serif;
   line-height: 1.5;
 }
 
 .paragraph.res {
   color: var(--_colors---almost-white);
-  font-family: Nouvelle Grotesk, Arial, sans-serif;
+  font-family: Inter, sans-serif;
   font-size: 16px;
   font-weight: 300;
   line-height: 1.8;
@@ -1502,7 +1422,7 @@ body {
   margin-left: 0;
   margin-right: 0;
   padding-top: 12px;
-  font-family: Gordita, sans-serif;
+  font-family: Inter, sans-serif;
   font-weight: 500;
   line-height: 1;
   display: flex;
@@ -1522,7 +1442,7 @@ body {
   color: #fff;
   text-align: center;
   margin-bottom: 20px;
-  font-family: Gordita, sans-serif;
+  font-family: Inter, sans-serif;
   font-size: 40px;
   font-weight: 500;
   line-height: 1;
@@ -1539,7 +1459,7 @@ body {
   text-align: center;
   letter-spacing: .5px;
   margin-bottom: 50px;
-  font-family: Gordita, sans-serif;
+  font-family: Inter, sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 1.2;
@@ -1560,7 +1480,7 @@ body {
   color: #fff;
   letter-spacing: .5px;
   border-bottom: 1px solid #fff0;
-  font-family: Gordita, sans-serif;
+  font-family: Inter, sans-serif;
   font-weight: 500;
 }
 
@@ -1605,7 +1525,7 @@ body {
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
-  font-family: Gordita, sans-serif;
+  font-family: Inter, sans-serif;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.1;
@@ -1670,7 +1590,7 @@ body {
 
 .text-block-21 {
   color: var(--_colors---almost-white);
-  font-family: Nouvelle Grotesk, Arial, sans-serif;
+  font-family: Inter, sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 1;
@@ -1678,7 +1598,7 @@ body {
 
 .text-block-22 {
   color: #fff;
-  font-family: DM Sans, sans-serif;
+  font-family: Inter, sans-serif;
   font-size: 16px;
   line-height: 1;
 }
@@ -1717,7 +1637,7 @@ body {
   background-clip: border-box;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: Nouvelle Grotesk, Arial, sans-serif;
+  font-family: Inter, sans-serif;
   font-size: 58px;
   font-weight: 400;
   line-height: 1.1;
@@ -1785,7 +1705,7 @@ body {
   text-transform: uppercase;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: DM Sans, sans-serif;
+  font-family: Inter, sans-serif;
   font-size: 13px;
   font-weight: 400;
   line-height: 1;
@@ -1803,7 +1723,7 @@ body {
   color: var(--_colors---almost-white);
   margin-top: 0;
   margin-bottom: 0;
-  font-family: Nouvelle Grotesk, Arial, sans-serif;
+  font-family: Inter, sans-serif;
   font-weight: 400;
   line-height: 1.2;
   display: block;
@@ -1872,7 +1792,7 @@ body {
 .paragraph-2 {
   color: #6b6b6e;
   margin-bottom: 0;
-  font-family: DM Sans, sans-serif;
+  font-family: Inter, sans-serif;
   font-size: 16px;
   line-height: 1;
 }
@@ -1880,7 +1800,7 @@ body {
 .paragraph-2.spaced {
   color: var(--_colors---light-gray);
   margin-bottom: 0;
-  font-family: Nouvelle Grotesk, Arial, sans-serif;
+  font-family: Inter, sans-serif;
   font-size: 18px;
   font-weight: 300;
   line-height: 1.8;
@@ -1964,7 +1884,7 @@ body {
 
 .text-block-23 {
   color: var(--_colors---light-gray);
-  font-family: DM Sans, sans-serif;
+  font-family: Inter, sans-serif;
   line-height: 1.1;
 }
 
@@ -2228,7 +2148,7 @@ body {
 
 .text-block-24 {
   color: #333;
-  font-family: DM Sans, sans-serif;
+  font-family: Inter, sans-serif;
   font-size: 13px;
   line-height: 1;
   text-decoration: none;
@@ -2452,7 +2372,7 @@ body {
 
 .text-block-25 {
   text-align: center;
-  font-family: DM Sans, sans-serif;
+  font-family: Inter, sans-serif;
 }
 
 .link-2 {
@@ -2473,7 +2393,7 @@ body {
 
 .text-block-26 {
   color: var(--_colors---almost-white);
-  font-family: Nouvelle Grotesk, Arial, sans-serif;
+  font-family: Inter, sans-serif;
   font-size: 16px;
   line-height: 1;
 }
@@ -2497,7 +2417,7 @@ body {
 
 .text-block-27 {
   color: var(--_colors---almost-white);
-  font-family: Nouvelle Grotesk, Arial, sans-serif;
+  font-family: Inter, sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 1;
@@ -2571,7 +2491,7 @@ body {
 
 .text-block-28 {
   color: #790e94;
-  font-family: DM Sans, sans-serif;
+  font-family: Inter, sans-serif;
 }
 
 .image-48 {
@@ -2583,7 +2503,7 @@ body {
   color: #333;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: DM Sans, sans-serif;
+  font-family: Inter, sans-serif;
   font-weight: 400;
   line-height: 1.2;
 }
@@ -2615,7 +2535,7 @@ body {
   text-transform: uppercase;
   margin-top: 0;
   margin-bottom: -12px;
-  font-family: Nouvelle Grotesk, Arial, sans-serif;
+  font-family: Inter, sans-serif;
   font-size: 13px;
   font-weight: 400;
   line-height: 1;
@@ -2668,7 +2588,7 @@ body {
 .paragraph-3 {
   color: #6b6b6e;
   margin-bottom: 0;
-  font-family: DM Sans, sans-serif;
+  font-family: Inter, sans-serif;
   font-size: 16px;
   line-height: 1;
 }
@@ -2743,7 +2663,7 @@ body {
 
 .list-item, .list-item-2, .list-item-3, .list-item-4, .list-item-5, .list-item-6 {
   color: var(--_colors---almost-white);
-  font-family: Nouvelle Grotesk, Arial, sans-serif;
+  font-family: Inter, sans-serif;
   font-size: 18px;
   font-weight: 300;
   line-height: 1.2em;
@@ -2751,7 +2671,7 @@ body {
 
 .list {
   color: var(--dark-slate-grey);
-  font-family: DM Sans, sans-serif;
+  font-family: Inter, sans-serif;
   list-style-type: square;
 }
 
@@ -2797,7 +2717,7 @@ body {
 .button-text {
   color: var(--_colors---almost-black);
   padding-top: 1px;
-  font-family: Nouvelle Grotesk, Arial, sans-serif;
+  font-family: Inter, sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 1em;
@@ -2862,7 +2782,7 @@ body {
 
 .navlink {
   color: var(--_colors---almost-white);
-  font-family: DM Sans, sans-serif;
+  font-family: Inter, sans-serif;
   font-size: 16px;
   text-decoration: none;
 }
@@ -3026,7 +2946,7 @@ body {
 
 .text-block-29 {
   color: var(--primary-blue);
-  font-family: DM Sans, sans-serif;
+  font-family: Inter, sans-serif;
   font-size: 24px;
   line-height: 1.2em;
   text-decoration: none;
@@ -3039,7 +2959,7 @@ body {
 .text-block-29.link {
   color: var(--_colors---almost-white);
   letter-spacing: .2px;
-  font-family: Nouvelle Grotesk, Arial, sans-serif;
+  font-family: Inter, sans-serif;
   font-size: 22px;
 }
 
@@ -3093,7 +3013,7 @@ body {
 .text-block-30 {
   color: #333;
   margin-bottom: 4px;
-  font-family: DM Sans, sans-serif;
+  font-family: Inter, sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.3em;
@@ -3117,7 +3037,7 @@ body {
 
 .text-block-31 {
   color: var(--_colors---almost-white);
-  font-family: Nouvelle Grotesk, Arial, sans-serif;
+  font-family: Inter, sans-serif;
   font-size: 32px;
   line-height: 32px;
 }
@@ -3208,7 +3128,7 @@ body {
 
 .text-block-32 {
   color: var(--_colors---almost-white);
-  font-family: Nouvelle Grotesk, Arial, sans-serif;
+  font-family: Inter, sans-serif;
   font-size: 20px;
   line-height: 1.2em;
 }
@@ -3223,7 +3143,7 @@ body {
 
 .text-block-33 {
   color: var(--primary-blue);
-  font-family: DM Sans, sans-serif;
+  font-family: Inter, sans-serif;
 }
 
 .div-block-134 {
@@ -3253,7 +3173,7 @@ body {
 .text-block-34 {
   color: var(--_colors---light-gray);
   letter-spacing: .4px;
-  font-family: Nouvelle Grotesk, Arial, sans-serif;
+  font-family: Inter, sans-serif;
   font-size: 16px;
   font-weight: 300;
   line-height: 1.5em;
@@ -3285,7 +3205,7 @@ body {
 
 .text-block-35 {
   color: var(--_colors---almost-white);
-  font-family: Nouvelle Grotesk, Arial, sans-serif;
+  font-family: Inter, sans-serif;
   font-size: 18px;
   font-weight: 700;
 }
@@ -3301,7 +3221,7 @@ body {
 
 .text-block-36 {
   color: var(--_colors---light-gray);
-  font-family: Nouvelle Grotesk, Arial, sans-serif;
+  font-family: Inter, sans-serif;
   line-height: 14px;
 }
 
@@ -3328,14 +3248,14 @@ body {
 }
 
 .text-block-37 {
-  font-family: DM Sans, sans-serif;
+  font-family: Inter, sans-serif;
   font-size: 20px;
 }
 
 .text-block-38 {
   width: 100%;
   color: var(--_colors---light-gray);
-  font-family: Nouvelle Grotesk, Arial, sans-serif;
+  font-family: Inter, sans-serif;
   font-size: 32px;
   font-weight: 300;
   line-height: 1.5em;
@@ -3392,7 +3312,7 @@ body {
 
 .text-block-39 {
   color: var(--primary-blue);
-  font-family: DM Sans, sans-serif;
+  font-family: Inter, sans-serif;
 }
 
 .text-block-39.web {
@@ -3407,7 +3327,7 @@ body {
   color: var(--primary-blue);
   justify-content: flex-start;
   align-items: center;
-  font-family: DM Sans, sans-serif;
+  font-family: Inter, sans-serif;
   display: flex;
 }
 
@@ -3446,7 +3366,7 @@ body {
 
 .text-block-42 {
   color: var(--primary-blue);
-  font-family: DM Sans, sans-serif;
+  font-family: Inter, sans-serif;
   line-height: 1em;
 }
 
@@ -3622,7 +3542,7 @@ body {
 
 .text-block-43 {
   color: var(--_colors---almost-white);
-  font-family: Nouvelle Grotesk, Arial, sans-serif;
+  font-family: Inter, sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 1em;
@@ -3648,7 +3568,7 @@ body {
 
 ._44 {
   color: var(--_colors---light-gray);
-  font-family: Nouvelle Grotesk, Arial, sans-serif;
+  font-family: Inter, sans-serif;
   font-size: 14px;
   line-height: 1.2em;
 }
@@ -3872,7 +3792,7 @@ body {
   align-items: center;
   width: 42px;
   height: 42px;
-  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+  font-family: Inter, sans-serif;
   display: flex;
   position: absolute;
   top: 50%;
@@ -3984,7 +3904,7 @@ body {
 
 .text-block-44 {
   color: var(--dark-slate-grey);
-  font-family: DM Serif Display, sans-serif;
+  font-family: Inter, sans-serif;
   font-size: 32px;
   line-height: 1.2em;
 }
@@ -4100,7 +4020,7 @@ body {
 }
 
 .text-block-45, .text-block-46, .text-block-47 {
-  font-family: Nouvelle Grotesk, Arial, sans-serif;
+  font-family: Inter, sans-serif;
   line-height: 1em;
 }
 
@@ -4115,7 +4035,7 @@ body {
 
 .text-block-48 {
   color: #777;
-  font-family: Nouvelle Grotesk, Arial, sans-serif;
+  font-family: Inter, sans-serif;
 }
 
 .div-block-172 {
@@ -4169,14 +4089,14 @@ body {
   color: var(--_colors---almost-white);
   margin-top: 0;
   margin-bottom: 0;
-  font-family: Nouvelle Grotesk, Arial, sans-serif;
+  font-family: Inter, sans-serif;
 }
 
 .heading-7 {
   color: var(--_colors---almost-white);
   margin-top: 0;
   margin-bottom: 8px;
-  font-family: Nouvelle Grotesk, Arial, sans-serif;
+  font-family: Inter, sans-serif;
   font-size: 22px;
   font-weight: 500;
 }
@@ -4291,7 +4211,7 @@ body {
   color: var(--primary-blue);
   background-color: #fff;
   border-radius: 100px;
-  font-family: Nouvelle Grotesk, Arial, sans-serif;
+  font-family: Inter, sans-serif;
   font-size: 16px;
   line-height: 1em;
 }
@@ -4462,7 +4382,7 @@ body {
 
 .nav-link-4 {
   color: var(--_colors---almost-white);
-  font-family: Nouvelle Grotesk, Arial, sans-serif;
+  font-family: Inter, sans-serif;
 }
 
 .nav-menu {
@@ -4479,7 +4399,7 @@ body {
   color: var(--_colors---almost-white);
   justify-content: center;
   align-items: center;
-  font-family: Nouvelle Grotesk, Arial, sans-serif;
+  font-family: Inter, sans-serif;
   text-decoration: none;
   display: flex;
 }
@@ -5370,7 +5290,7 @@ body {
 
   .heading-3 {
     height: auto;
-    font-family: Nouvelle Grotesk, Arial, sans-serif;
+    font-family: Inter, sans-serif;
     font-size: 24px;
   }
 
@@ -6364,7 +6284,7 @@ body {
 
   .text-block-7 {
     color: var(--blue);
-    font-family: Gordita, sans-serif;
+    font-family: Inter, sans-serif;
     font-weight: 500;
   }
 
@@ -6834,7 +6754,7 @@ body {
 
   .heading-3 {
     margin-bottom: 0;
-    font-family: Nouvelle Grotesk, Arial, sans-serif;
+    font-family: Inter, sans-serif;
     font-size: 20px;
   }
 
@@ -7246,7 +7166,7 @@ body {
   .text-block-41 {
     color: #fff;
     text-align: center;
-    font-family: DM Sans, sans-serif;
+    font-family: Inter, sans-serif;
     font-size: 24px;
   }
 
@@ -7638,7 +7558,7 @@ body {
   align-items: center;
   min-width: 40px;
   height: 40px;
-  font-family: Nouvelle Grotesk, Arial, sans-serif;
+  font-family: Inter, sans-serif;
   font-size: 13px;
   line-height: 1em;
   transition:
